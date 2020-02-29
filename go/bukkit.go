@@ -52,6 +52,6 @@ func Java_io_rcw_nbukkit_NativePlugin_onDisable(env *C.JNIEnv, clazz C.jobject) 
  */
 //export Java_io_rcw_nbukkit_NativePlugin_getName
 func Java_io_rcw_nbukkit_NativePlugin_getName(env *C.JNIEnv, obj C.jobject) C.jstring {
-	return C.createJString(env, C.CString("NativeGolangPlugin"))
+	return C.createJString(env, C.CString("TotallyNotANativeGoPlugin"))
 }
 func main() {}

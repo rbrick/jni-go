@@ -5,3 +5,5 @@ cpp/headers/
 _obj/
 *.iml
 target/
+go/native-bukkit.h
+*.dll

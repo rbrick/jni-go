@@ -1,0 +1,7 @@
+cpp/headers/
+.vscode/
+.idea/
+*.o
+_obj/
+*.iml
+target/
